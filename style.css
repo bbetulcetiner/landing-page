@@ -1,0 +1,10 @@
+.navigation{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    line-height: 20px;
+    position: relative;
+    padding: 10px;
+}
