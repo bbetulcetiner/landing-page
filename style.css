@@ -96,7 +96,7 @@ header .navigation a{
     min-width: 150px;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.2);
-    width: 25%;
+    width: 200px;
     margin-left: 50px;
     border-radius: 20px;
 }
@@ -110,13 +110,11 @@ header .navigation a{
     display:block;
 }
 
-.sandworm{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.title{
+    padding: 100px;
+    position: relative;
+    margin-right: 500px;
+    
 }
-
-
 
 
