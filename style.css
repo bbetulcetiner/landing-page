@@ -110,10 +110,26 @@ header .navigation a{
     display:block;
 }
 
-.title{
-    padding: 100px;
+hero{
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
     position: relative;
-    margin-right: 500px;
+    width: 100%;
+    top: 0x;
+    left: 0;
+    right: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn2{
+    
+    position: fixed;
+    
     
 }
 
