@@ -6,7 +6,7 @@
 
 body{
     /* arka plan gif için */
-    background-image: url(/images/Desert.gif);
+    background-image: url(./images/Desert.gif);
     height: 1500px; /* arkaplanın boyutunu buradan değiştirebilirsin */
     background-position: center;
     background-repeat: no-repeat;
