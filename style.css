@@ -7,7 +7,7 @@
 body{
     /* arka plan gif için */
     background-image: url(/images/Desert.gif);
-    height: 900px; /* arkaplanın boyutunu buradan değiştirebilirsin */
+    height: 1500px; /* arkaplanın boyutunu buradan değiştirebilirsin */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,16 +31,18 @@ header{
     justify-content: space-between;
     margin: auto;
     font-family: "Alegreya", serif;
+    height: 100px;
 }
 header *{
     display: inline;
 }
 header .navigation a{
-    color: rgb(53, 51, 51);
+    color: rgb(27, 22, 15);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 900;
     letter-spacing: 1px;
     padding: 10px 30px;
+    font-family: "Alegreya", serif;
 }
 .line {
     display: inline-block;
@@ -58,7 +60,7 @@ header .navigation a{
 }
 .line:hover:after{
     width: 100%;
-    background-color: black;
+    background-color: rgb(27, 22, 15);
 }
 
 .dropbtn{
@@ -68,10 +70,10 @@ header .navigation a{
     letter-spacing: 1px;
     padding: 10px 30px;
     transition: 0.4s;
-    font-weight: 500;
+    font-weight: 900;
     font-family: "Alegreya", serif;
     font-size: 16px;
-    color: #353333;
+    color: rgb(27, 22, 15);
     display: inline-block;
 }
 .dropdown:hover .dropbtn{
@@ -89,7 +91,7 @@ header .navigation a{
 }
 .dropbtn:hover:after{
     width: 100%;
-    background-color: black;
+    background-color: rgb(27, 22, 15);
 }
 .dropdown-content{
     /* "movie"ye tıkladığında çıkan seçeneklerin arka planı */
@@ -118,12 +120,12 @@ hero{
     background-color: rgba(0, 0, 0, 0.2);
     position: relative;
     width: 100%;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
-    height: 450px;
+    height: 550px;
     display: flex;
-    padding: 80px 100px;
+    padding: 100px 150px;
     justify-content: space-between;
     
 }
@@ -139,13 +141,13 @@ hero .main-text2 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(27, 22, 15);
 }
 hero .button {
     position: absolute;
     background-color: rgb(27, 22, 15);
-    color: #c3a684;
+    color: #948770;
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -154,18 +156,22 @@ hero .button {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+    font-family: "Alegreya", serif;
 }
 
 .info-text {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 50px;
+    font-size: 36px;
+    font-style: bold;
     font-weight: 600;
+    color: rgb(27, 22, 15);
+    font-family: "Alegreya Sans", sans-serif;
 }
 .box-con{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,20 +180,21 @@ hero .button {
     background-color: #353333;
 }
 .box-con:hover{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 15px 5px rgb(27, 22, 15);
 }
 .box-img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 3px black;
+    border: 3px rgb(27, 22, 15);
     transition: 0.5s;
 }
 .box-img:hover{
-    width: 200px;
-    height: 200px;
-    border: 3px black;
+    width: 250px;
+    height: 250px;
+    border: 3px rgb(27, 22, 15);
 }
 .boxes{
     display: flex;
@@ -200,8 +207,76 @@ hero .button {
 .names{
     text-align: center;
     padding: 30px;
+    font-size: 18px;
+    color: rgb(27, 22, 15);
+    font-family: "Alegreya", serif;
 }
 
-  
-  
+.quote-section{
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    position: relative;
+    width: 100%;
+    /* transparant görünümün boyutu */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    /* transparant görünümün boyutu */
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    margin: auto;
+}
+.quote{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(27, 22, 15);
+    font-family: "Alegreya", serif;
+    font-style: italic;
+}
+
+.call-to-action{
+    display: flex;
+    background: rgb(41, 33, 23);
+    height: 150px;
+    width: 50%;
+    flex: 1 1 0;
+    margin: 70px;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 400px;
+}
+.c-text1{
+    color: #948770;
+    font-family: "Alegreya", serif;
+}
+.c-button{
+    font-family: "Alegreya", serif;
+    background-color: #948770;
+    color: rgb(41, 33, 23);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
+    font-family: "Alegreya", serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 70px;
+    align-items: center;
+}
 
